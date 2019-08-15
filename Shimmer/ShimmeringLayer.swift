@@ -95,6 +95,10 @@ final public class ShimmeringLayer: CALayer {
     override init() {
         super.init()
     }
+    
+    override public init(layer: Any) {
+        super.init(layer: layer)
+    }
 
     override public func layoutSublayers() {
         super.layoutSublayers()
